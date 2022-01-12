@@ -7,8 +7,8 @@
 /* Custom Properties*/
 
 :root {
-  --ff-primary: 'Lora', serif;
-  --ff-secondary: 'Roboto Slab', serif;
+  --ff-primary: "Lora", serif;
+  --ff-secondary: "Roboto Slab", serif;
 
   --fw-reg: 400;
   --fw-bold: 700;
@@ -198,7 +198,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -232,8 +232,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      'img title'
-      'img subtitle';
+      "img title"
+      "img subtitle";
     grid-template-columns: min-content max-content;
   }
 
@@ -259,9 +259,7 @@ header {
 
 .my-skills {
   background-color: var(--clr-dark);
-  background-image: url(../photos/skills-bg.jpg);
   background-size: cover;
-  /* background-blend-mode: multiply; */
   color: var(--clr-light);
   text-align: center;
 }
@@ -272,7 +270,7 @@ header {
 }
 
 .section__title--skills::after {
-  content: '';
+  content: "";
   display: block;
   width: 2em;
   height: 1px;
@@ -288,6 +286,7 @@ header {
 .service {
   max-width: 500px;
   margin: 0 auto;
+  text-shadow: 1px 1px 2px #111;
 }
 
 @media (min-width: 800px) {
